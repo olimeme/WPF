@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\bin\Debug\WPFCalculator.exe.config
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\bin\Debug\WPFCalculator.exe
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\bin\Debug\WPFCalculator.pdb
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\App.g.cs
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator_MarkupCompile.cache
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator_MarkupCompile.lref
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.g.resources
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.exe
+C:\Users\Lenovo\source\repos\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.pdb
