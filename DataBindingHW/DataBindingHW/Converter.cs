@@ -32,17 +32,27 @@ namespace DataBindingHW
 
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
-            int x = 0;
-
-            if (Int32.TryParse(values[2].ToString(), out x))
+            int day = 0;
+            int month = 0;
+            int year = 0;
+            
+            if ((int.TryParse(values[0].ToString(), out day)) && 
+                (int.TryParse(values[1].ToString(), out month)) && 
+                (int.TryParse(values[2].ToString(), out year)) &&
+                (values[0].ToString() == "") &&
+                (values[1].ToString() == "") &&
+                (values[2].ToString() == "") 
+               )
             {
-                int year = x.ToString().Length;
-                if (values[1].ToString() == "2" && values[0].ToString() == "29" && x % 4 != 0 && year == 4)
+                int yearNumberLength = year.ToString().Length;
+                if (values[1].ToString() == "2" && values[0].ToString() == "29" && year % 4 != 0 && yearNumberLength == 4)
                 {
-                    MessageBox.Show("Feburary does not have a 29 day in the year " + x);
+                    MessageBox.Show("Feburary does not have a 29 day in the year " + year);
                     return null;
                 }
             }
+            else
+                MessageBox.Show("sosat");
 
             return String.Concat(values[0], ".", values[1],".", values[2]);
         }
