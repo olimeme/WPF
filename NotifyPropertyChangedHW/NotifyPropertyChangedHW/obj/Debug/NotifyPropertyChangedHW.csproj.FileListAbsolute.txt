@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\bin\Debug\NotifyPropertyChangedHW.exe.config
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\bin\Debug\NotifyPropertyChangedHW.exe
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\bin\Debug\NotifyPropertyChangedHW.pdb
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\App.g.cs
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW_MarkupCompile.cache
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW_MarkupCompile.lref
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW.g.resources
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW.exe
+C:\Users\Lenovo\source\repos\NotifyPropertyChangedHW\NotifyPropertyChangedHW\obj\Debug\NotifyPropertyChangedHW.pdb
