@@ -1,0 +1,1 @@
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

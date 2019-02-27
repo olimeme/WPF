@@ -1,0 +1,8 @@
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\bin\Debug\netcoreapp2.0\EarthquakeAPI.deps.json
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\bin\Debug\netcoreapp2.0\EarthquakeAPI.runtimeconfig.json
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\bin\Debug\netcoreapp2.0\EarthquakeAPI.runtimeconfig.dev.json
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\bin\Debug\netcoreapp2.0\EarthquakeAPI.dll
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\obj\Debug\netcoreapp2.0\EarthquakeAPI.csprojAssemblyReference.cache
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\obj\Debug\netcoreapp2.0\EarthquakeAPI.csproj.CoreCompileInputs.cache
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\obj\Debug\netcoreapp2.0\EarthquakeAPI.AssemblyInfoInputs.cache
+C:\Users\МомбековА.CORP\source\repos\EarthquakeAPI\EarthquakeAPI\obj\Debug\netcoreapp2.0\EarthquakeAPI.AssemblyInfo.cs
