@@ -4,5 +4,91 @@
              xmlns:local="clr-namespace:EarthquakeWPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Indigo.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        
+            <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Thin"/>
+            </Style>
+            <Style x:Key="ItemsControlStyle" TargetType="ItemsControl">
+                <Setter Property="Background" Value="#29bf89"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="White" />
+                <Setter Property="Foreground" Value="#29bf89" />
+                <Setter Property="FontWeight" Value="Thin"/>
+            </Style>
+            <Style x:Key="StackPanelRegisterStyle" TargetType="StackPanel">
+                <Setter Property="Height" Value="512" />
+                <Setter Property="Width" Value="1000"/>
+            </Style>
+            <Style x:Key="ItemsControlRegisterStyle" TargetType="ItemsControl">
+                <Setter Property="Height" Value="490" />
+                <Setter Property="Background" Value="#FF27785B"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+                <Setter Property="Margin" Value="120,10,120,10"/>
+            </Style>
+
+            <Style x:Key="StackPanelRegisterConfirmStyle" TargetType="StackPanel">
+                <Setter Property="Height" Value="310" />
+                <Setter Property="Width" Value="Auto"/>
+            </Style>
+            <Style x:Key="ItemsControlRegisterConfirmStyle" TargetType="ItemsControl">
+                <Setter Property="Height" Value="310" />
+                <Setter Property="Width" Value="530" />
+                <Setter Property="Background" Value="#FF27785B"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+                <Setter Property="Margin" Value="120,10,120,10"/>
+            </Style>
+
+            <Style x:Key="StackPanelLoginStyle" TargetType="StackPanel">
+                <Setter Property="Height" Value="530" />
+                <Setter Property="Width" Value="1000"/>
+            </Style>
+            <Style x:Key="ItemsControlLoginStyle" TargetType="ItemsControl">
+                <Setter Property="Height" Value="325" />
+                <Setter Property="Background" Value="#FF27785B"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Style>
+
+            <Style x:Key="StackPanelForgotPasswordStyle" TargetType="StackPanel">
+                <Setter Property="Height" Value="310" />
+                <Setter Property="Width" Value="530"/>
+            </Style>
+            <Style x:Key="ItemsControlForgotPasswordStyle" TargetType="ItemsControl">
+                <Setter Property="Height" Value="310" />
+                <Setter Property="Width" Value="530" />
+                <Setter Property="Background" Value="#FF27785B"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Style>
+
+            <Style TargetType="TextBox">
+                <Setter Property="Height" Value="40" />
+                <Setter Property="Width" Value="195"/>
+                <Setter Property="HorizontalAlignment" Value="Right"/>
+                <Setter Property="FontWeight" Value="Light"/>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="FontSize" Value="18"/>
+            </Style>
+
+            <Style x:Key="GridStyle" TargetType="Grid">
+                <Setter Property="Background" Value="#29bf89"/>
+            </Style>
+        </ResourceDictionary>
+        
+        
+        
     </Application.Resources>
 </Application>

@@ -86,7 +86,6 @@ namespace EarthquakeWPF
 
         private void OpenLoginPanel(object sender, RoutedEventArgs e)
         {
-            Cart.Visibility = Visibility.Collapsed;
             RegistrateForm.Visibility = Visibility.Collapsed;
             LoginForm.Visibility = Visibility.Visible;
             if (RegistrateForm.Visibility == Visibility.Visible) RegistrateForm.Visibility = Visibility.Collapsed;
@@ -99,7 +98,6 @@ namespace EarthquakeWPF
 
         private void OpenRegistratePanel(object sender, RoutedEventArgs e)
         {
-            Cart.Visibility = Visibility.Collapsed;
             LoginForm.Visibility = Visibility.Collapsed;
             RegistrateForm.Visibility = Visibility.Visible;
             if (LoginForm.Visibility == Visibility.Visible) LoginForm.Visibility = Visibility.Collapsed;
@@ -266,12 +264,16 @@ namespace EarthquakeWPF
             var login = ForgotPasswordTextBox.Text;
             using (EarthquakeContext context = new EarthquakeContext())
             {
-                var clientForgotPassword = context.Clients.Where(client => client.Login == login).ToList()[0];
-                var password = clientForgotPassword.Password;
-                var phoneNumber = clientForgotPassword.Phone;
                 try
                 {
+                    var clientForgotPassword = context.Clients.Where(client => client.Login == login).ToList()[0];
+                    var password = clientForgotPassword.Password;
+                    var phoneNumber = clientForgotPassword.Phone;
                     PasswordSender(phoneNumber, password);
+                }
+                catch(ArgumentOutOfRangeException)
+                {
+                    MessageBox.Show("Пустое поле");
                 }
                 catch(TwilioException ex)
                 {
