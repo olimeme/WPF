@@ -1,0 +1,15 @@
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\bin\Debug\ProgressBarDarkTheme.exe.config
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\bin\Debug\ProgressBarDarkTheme.exe
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\bin\Debug\ProgressBarDarkTheme.pdb
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme.csprojAssemblyReference.cache
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\MainWindow.g.cs
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\App.g.cs
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme_MarkupCompile.cache
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme_MarkupCompile.lref
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\MainWindow.baml
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme.g.resources
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme.Properties.Resources.resources
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme.csproj.GenerateResource.cache
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme.csproj.CoreCompileInputs.cache
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme.exe
+C:\Users\МомбековА.CORP\source\repos\ProgressBarDarkTheme\ProgressBarDarkTheme\obj\Debug\ProgressBarDarkTheme.pdb
