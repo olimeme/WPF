@@ -38,20 +38,11 @@
                                     </VisualState>
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
-                            <Border CornerRadius="100" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}"/>
-                            <Rectangle x:Name="PART_Track"  Fill="#FF707070"/>
+                            <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}"/>
+                            <Rectangle x:Name="PART_Track" Fill="#FF707070"/>
                             <Grid x:Name="PART_Indicator" ClipToBounds="true" HorizontalAlignment="Left">
                                 <Rectangle x:Name="Indicator" Fill="{TemplateBinding Foreground}"/>
-                                <Rectangle x:Name="Animation" RenderTransformOrigin="0.5,0.5" Fill="#FF9B9B9B">
-                                    <Rectangle.RenderTransform>
-                                        <TransformGroup>
-                                            <ScaleTransform/>
-                                            <SkewTransform/>
-                                            <RotateTransform/>
-                                            <TranslateTransform/>
-                                        </TransformGroup>
-                                    </Rectangle.RenderTransform>
-                                </Rectangle>
+                                <Rectangle x:Name="Animation" RenderTransformOrigin="0.5,0.5" Fill="#FF9B9B9B"/>
                             </Grid>
                         </Grid>
                         <ControlTemplate.Triggers>
@@ -72,16 +63,31 @@
         </Style>
     </Window.Resources>
     <Grid Background="#FF343434">
-        <ProgressBar Minimum="0" Maximum="100" Value="{Binding WorkerState}" Height="25"  Margin="16,47,22,134" RenderTransformOrigin="0.5,0.5" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ProgressBar Grid.Row="5" 
+                     Name="TestProgressBar"
+                     Height="20" RenderTransformOrigin="0.5,0.5" Margin="19,16,21,39">
             <ProgressBar.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
-                    <SkewTransform AngleX="-16.504"/>
+                    <SkewTransform AngleX="-17.876"/>
                     <RotateTransform/>
-                    <TranslateTransform X="3.704"/>
+                    <TranslateTransform X="3.225"/>
                 </TransformGroup>
             </ProgressBar.RenderTransform>
         </ProgressBar>
-        <TextBlock Name="progressText" Text="progress" Foreground="White" Margin="100,94,102,66" FontSize="24" FontWeight="Thin" FontFamily="Segoe UI Light"/>
+        <TextBlock Grid.Row="2"
+                   HorizontalAlignment="Center"
+                   Name="ProgressTextBlock" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+        <Button
+                Name="DoWorkButton"
+                Content="Do Work" Click="DoWorkButton_Click" Margin="98,0,108,43" Height="29" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
